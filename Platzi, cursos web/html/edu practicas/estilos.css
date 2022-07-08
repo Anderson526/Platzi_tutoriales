@@ -1,0 +1,134 @@
+*{
+
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+} 
+
+.uno{
+    font-size: 40px;
+}
+.dos{
+    font-size: small;
+}
+.tres{
+    font-size: normal ;
+}
+.cuatro{
+    font-size: large;
+
+}
+.cinco{
+    font-size: xx-large;
+}
+.seis{
+    font-size: xx-small;
+}
+.siete{
+    font-size: 80%;
+}
+.ocho{
+    font-size: 200%;
+
+}
+.nueve{
+    font-size: 300%;
+}
+
+
+.caja{
+
+    background: gray;
+    margin: 25px auto;
+    padding: 15px;
+    width: 50%;
+    height: 200px;
+}
+
+.negro{
+    color: black;
+}
+
+.blanco{
+    color: white;
+  
+}
+.rojo{
+    color: red;
+}
+.amarillo{
+
+    color: yellow;
+}
+.azul{
+    color: blue;
+}
+.verde{
+    color: green;
+    
+}
+.morado{
+    color: purple;
+}
+
+
+.tabla1{
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+div .tabla1,th,td{
+    padding: 5px 70px;
+    border: 2px solid black;
+}
+
+.tabla2{
+
+
+    border-collapse: separate;
+    margin: 15px auto;
+    
+
+}
+
+div .tabla2, td{
+
+    border: 1px solid black;
+    font-family: cursive;
+}
+
+.tabla3{
+
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+.data{
+
+    color: green;
+}
+
+
+.color{
+    color: red;
+}
+
+
+.hola{
+
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+.tabla4{
+
+margin: 100px auto;
+border-collapse:collapse ;
+
+
+}
+.colorines{
+
+    color: silver;
+}

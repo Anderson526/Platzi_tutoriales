@@ -1,0 +1,43 @@
+.container{
+    height: 500px;
+    padding: 30px;
+    background: #11f;
+}
+.caja{
+    background: #f00;
+    height: 100px;
+    width: 100px;
+    transition-property:left, background;
+   transition-duration:1s ;
+   /*transition-delay:3s ;*/
+   margin: 5px;
+   position: relative;
+   left: 0;
+}
+
+.container:hover > .caja{
+
+    background: #025;
+    left: 80%;
+    
+}
+.caja:first-child{
+    transition-timing-function:linear ;
+
+
+} 
+.caja:nth-child(2){
+    transition-timing-function: ease;
+
+}
+.caja:nth-child(3){
+    transition-timing-function: steps(6, end);
+}
+.caja:nth-child(4){
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+    
+}
+.caja:nth-child(5){
+    transition-timing-function: ease-in-out;
+    
+}

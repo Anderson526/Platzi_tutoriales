@@ -1,0 +1,53 @@
+.flex-conteiner{
+display: flex;
+flex-wrap:wrap ;
+justify-content: center;
+}
+img{
+    width: 200px;
+   
+}
+
+.flex-item{
+    flex-grow: 1;
+    flex-basis: 200px;
+    max-width: 300px;
+    border: 2px solid  black ;
+    margin: 5px;
+}
+
+h3{
+    color: #666;
+}
+
+p {
+    color: #090;
+}
+
+h2,h3{
+    margin: 5px;
+}
+
+.flex-item:hover{
+    border: 2px red solid ;
+    transition: 1s all;
+    box-sizing: 0px  0px 13px #910;
+}
+.flex-item:focus{
+    border: 2px red solid ;
+  
+    box-sizing: 0px  0px 13px #910;
+}
+
+
+form{
+    width: 100%;
+    text-align:center;
+}
+
+input[type = "submit"]{
+    background: green;
+    border:none;
+    color: #fff;
+    padding: 12px 28px;
+}

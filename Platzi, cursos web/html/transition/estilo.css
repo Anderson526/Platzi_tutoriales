@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+
+div{
+    margin: auto;
+    margin-top: 25px ;
+    background: grey;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    outline: 5px solid blueviolet;
+}
+img{
+
+    position: relative;
+    top: 260px;
+    left: 240px;
+    transition: all 1.2s;
+    outline: 5px solid red;
+}
+
+div:hover > img {
+
+    position: relative;
+    top: 0;
+    left: 0;
+    outline: 5px solid blue;
+
+}

@@ -1,0 +1,26 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+div{
+    width: 45%;
+    display: inline-block;
+    padding: 15px;
+    background: #aaa;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    div{
+        display: block;
+        width: 100%;
+    }
+  }

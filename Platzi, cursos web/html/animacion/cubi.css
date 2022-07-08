@@ -1,0 +1,41 @@
+.container{
+    background: #231242;
+ 
+}
+.caja{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background: #a4a;
+    animation-name: desplazarse;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.04 , 1.08 , 0.76 , 1.11);
+
+
+/* cordenadas x1 y1 y x2 y2   curvas de versier*/
+
+}
+
+@keyframes desplazarse{
+
+0% {
+   
+    left: 0 ;
+}
+50% {
+background: red;
+
+
+}
+100% {
+left: 80%;
+background: greenyellow;
+
+}
+
+}

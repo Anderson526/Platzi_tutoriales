@@ -1,0 +1,17 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+
+
+    position: sticky;
+    background: cadetblue;
+    font-size: 25px;
+    top: -15px
+}
+.letra{
+    font-size: 35px;
+}

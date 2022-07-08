@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+
+font-size: 25px;
+margin: auto;
+margin-top:25px;
+overflow: auto;
+background: burlywood;
+width: 200px;
+height: 200px;
+
+}

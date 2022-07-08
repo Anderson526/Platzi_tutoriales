@@ -1,0 +1,41 @@
+*{
+
+    box-sizing: border-box;
+    padding:  0;
+    margin: 0;
+}
+h1{
+
+    color:cornflowerblue;
+    font-family: 'Anton', sons-serif;
+
+}
+
+
+h2{
+
+    background-color: black;
+    color: red;
+    display: inline ;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+
+
+
+   
+    border-radius: 5px;
+    border: 4px solid burlywood;
+    box-shadow:10px 4px 15px 0 black ;
+    text-shadow: 2px 2px  15px white;
+  
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    
+  
+    
+}

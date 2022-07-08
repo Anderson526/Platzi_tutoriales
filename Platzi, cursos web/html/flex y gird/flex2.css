@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    align-content: baseline;
+    flex-wrap: wrap;
+
+}
+.felx-container{
+
+background: chocolate;
+  min-width: 200px;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  flex:1;
+
+
+}
+.orange{
+    background: orange;
+   flex: 1 0.5 200px;
+}
+.blue{
+    background: blue;
+}

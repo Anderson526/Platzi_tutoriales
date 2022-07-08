@@ -1,0 +1,17 @@
+.container{
+
+background-color: blue;
+
+direction: rtl;
+
+}
+
+*{
+    font-size: 150%;
+    scroll-behavior: smooth;
+}
+
+#texto{
+    background-color: blueviolet;
+    user-select: none;
+}

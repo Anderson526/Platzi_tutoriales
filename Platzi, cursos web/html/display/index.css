@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+
+    width: 150px;
+    height: 150px;
+    border: 5px dotted blue;
+    background: plum;
+    display: inline-block;
+
+    
+}

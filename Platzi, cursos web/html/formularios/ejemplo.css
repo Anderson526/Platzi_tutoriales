@@ -1,0 +1,37 @@
+body{
+    background: #000;
+}
+.formularo{
+display: flex;
+justify-content: center;
+
+margin: 45px auto;
+height: 500px;
+width: 400px;
+background: rgb(14, 50, 128);
+border-radius: 5%;
+box-shadow: 10px 5px 5px rgb(37, 77, 163);
+
+}
+.title:hover{
+
+    background: violet;
+    transition: 1s;
+}
+.title{
+
+    color: white;
+    margin: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+
+}
+.texto{
+    border-style: none;
+    border-radius: 5px;
+}
+
+.texto:focus{
+    background: turquoise;
+    transition: 1s;
+}

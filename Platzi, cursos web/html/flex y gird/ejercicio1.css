@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    width: 2fr;
+    height: 500px;
+    background: #aaa;
+    flex-wrap: wrap;
+}
+.item{
+    border: 2px solid white;
+    background: #000;
+    width: 100px;
+    height: 100px;
+}
+.item:first-child{
+
+ 
+background: chocolate;
+min-width: 300px;
+width: 350px;
+height: 100px;
+
+flex:2;
+}
+
+
+

@@ -1,0 +1,38 @@
+.container{
+
+    padding: 20px 5px;
+    width: 360px;
+    height: 360px;
+
+    background: #342;
+    background-image: url(https://services.meteored.com/img/article/-por-que-las-nubes-no-se-caen--7332-1_1024.jpg) ;
+
+    background-size: 100px;
+    background-position: right top ;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    background-clip:padding-box ;
+
+    overflow: auto;
+
+}
+
+:root{
+    --color-rojo: #f00;
+    --color: #a3a;
+}
+.variables{
+    background: var(--color-rojo);
+    width: 100px;
+    height: 100px;
+}
+img{
+    filter: blur(1rem);
+    width: 360px;
+    filter: brightness(1);
+    filter: contrast(1.5);
+    filter: drop-shadow(0 0 10px #444);
+    filter: hue-rotate(200deg);/* inversion de colores en deg*/
+    filter: opacity(1);
+    filter: saturate(100%);
+}

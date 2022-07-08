@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+background: rgba(81, 184, 224, 0.664);
+width: 1fr ;
+height: 400px;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(4,1fr);
+
+
+}
+.item{
+    background: rgb(45, 122, 84);
+    border: 2px solid #000;
+
+}
+
+.item:first-child{
+background: rgb(22, 48, 23);
+grid-column: 1/5;
+}
+.item:nth-child(2){
+    background: rgb(82, 152, 180);
+grid-column: 1/4;
+grid-row: 2/4;
+}
+
+.item:nth-child(3){
+    grid-column: 4/ span 1;
+    grid-row: 2/4;
+}
+.item:last-child{
+background: #aaa;
+
+grid-column: 1/5;
+
+}
+

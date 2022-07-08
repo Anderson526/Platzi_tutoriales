@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+form{
+margin: 100px auto;
+display: block;
+background: black;
+padding: 100px;
+width: 50%;
+}
+input{
+ 
+padding: 10px;   
+width: 100%;
+   
+}
+input::placeholder{
+    color:red;
+    font-size: 30px;
+    background: blue;
+}
+input::selection{
+    background: green;
+}
+
+p::selection{
+    background: blueviolet;
+}

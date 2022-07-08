@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja1{
+
+    height: 200px;
+    width: 200px;
+    background: cadetblue;
+    transition: 1.2s;
+    border: 2px solid rgb(83, 60, 189);
+
+}
+.caja1:hover{
+
+    background: coral;
+    height: 300px;
+    width: 300px;
+    transition: 1.2s;
+    border: 2px solid red;
+}
